@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BESBluetoothKit_Example' do
+  pod 'BESBluetoothKit', :path => '../'
+
+  target 'BESBluetoothKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
